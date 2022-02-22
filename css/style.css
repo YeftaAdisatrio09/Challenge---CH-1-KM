@@ -2,6 +2,15 @@
     margin-left: 10px;
 }
 
-.ourServices {
-    height: 1000px;
+.hero {
+    height: 500px;
+    background-color: #f1f3ff;
+}
+
+img {
+    height: 407px;
+}
+
+.service li img {
+    height: 24px;
 }
