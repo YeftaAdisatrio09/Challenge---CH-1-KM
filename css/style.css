@@ -1,16 +1,74 @@
+body {
+    font-family: "Arial" sans-serif;
+    font-size: 14px;
+}
+
+#main {
+    overflow: hidden;
+}
+
+#headerNav {
+    background-color: #e5e6ec;
+}
+
 .nav-link {
     margin-left: 10px;
 }
 
-.hero {
-    height: 500px;
+#hero {
+    height: auto;
     background-color: #f1f3ff;
 }
 
-img {
-    height: 407px;
+.card {
+    height: 196px;
+    margin-bottom: 10px;
 }
 
-.service li img {
-    height: 24px;
+.card h5 {
+    font-size: 16px;
+    font-style: bold;
+}
+
+.card p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+#CTA {
+    background-color: #0d28a6;
+    color: #f1f3ff;
+    padding: 5px;
+}
+
+#CTA .item {
+    margin: 10px 20px;
+}
+
+#CTA .item h2 {
+    font-size: 30px;
+    font-style: bold;
+}
+#CTA .item p {
+    margin: 30px 80px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#CTA .btn {
+    background-color: #5cb85f;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1200px) {
+    #headerNav {
+        background-color: #f1f3ff;
+    }
+    #CTA .item {
+        margin: 70px 180px;
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 200px) {
 }
