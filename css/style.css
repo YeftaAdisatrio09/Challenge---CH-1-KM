@@ -60,13 +60,29 @@ body {
     align-items: center;
 }
 
+#accordion .panel-heading {
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 1%;
+    padding-left: 10px;
+    border: solid 1px rgb(218, 218, 218);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#accordion .panel-heading a {
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+}
+
 @media only screen and (min-width: 1200px) {
     #headerNav {
         background-color: #f1f3ff;
     }
     #CTA .item {
         margin: 70px 180px;
-        background-color: red;
     }
 }
 
