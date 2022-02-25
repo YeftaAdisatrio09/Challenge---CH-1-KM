@@ -1,6 +1,6 @@
 body {
     font-family: "Arial" sans-serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #main {
@@ -26,12 +26,12 @@ body {
 }
 
 .card h5 {
-    font-size: 16px;
+    font-size: 14px;
     font-style: bold;
 }
 
 .card p {
-    font-size: 14px;
+    font-size: 10px;
     font-style: italic;
 }
 
@@ -39,24 +39,27 @@ body {
     background-color: #0d28a6;
     color: #f1f3ff;
     padding: 5px;
+    border-radius: 3px;
 }
 
 #CTA .item {
-    margin: 10px 20px;
+    margin: 5px 15px;
 }
 
 #CTA .item h2 {
-    font-size: 30px;
+    font-size: 26px;
     font-style: bold;
 }
+
 #CTA .item p {
-    margin: 30px 80px;
-    font-size: 14px;
+    margin: 15px 40px;
+    font-size: 10px;
     font-style: italic;
 }
 
 #CTA .btn {
     background-color: #5cb85f;
+    color: #f1f3ff;
     align-items: center;
 }
 
@@ -64,7 +67,7 @@ body {
     width: auto;
     height: 40px;
     margin-top: 10px;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-left: 10px;
     border: solid 1px rgb(218, 218, 218);
     border-radius: 5px;
@@ -74,17 +77,64 @@ body {
 #accordion .panel-heading a {
     text-decoration: none;
     color: black;
-    padding-left: 15px;
+    font-size: 10px;
+}
+
+#footer .style {
+    font-size: 8px;
+    padding-bottom: 2px;
 }
 
 /* #testimoni .slider .test {
 } */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
+    body {
+        font-family: "Arial" sans-serif;
+        font-size: 14px;
+    }
+
     #headerNav {
         background-color: #f1f3ff;
     }
+
+    .card {
+        height: 196px;
+        margin-bottom: 10px;
+    }
+
+    .card h5 {
+        font-size: 16px;
+        font-style: bold;
+    }
+
+    .card p {
+        font-size: 12px;
+        font-style: italic;
+    }
+
     #CTA .item {
         margin: 70px 180px;
+    }
+
+    #CTA .item h2 {
+        font-size: 30px;
+        font-style: bold;
+    }
+
+    #CTA .item p {
+        margin: 30px 80px;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    #accordion .panel-heading a {
+        padding-left: 15px;
+        font-size: 12px;
+    }
+
+    #footer .style {
+        font-size: 12px;
+        padding-bottom: 5px;
     }
 }
