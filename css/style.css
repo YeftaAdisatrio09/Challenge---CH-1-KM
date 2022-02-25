@@ -77,6 +77,9 @@ body {
     padding-left: 15px;
 }
 
+/* #testimoni .slider .test {
+} */
+
 @media only screen and (min-width: 1200px) {
     #headerNav {
         background-color: #f1f3ff;
@@ -84,7 +87,4 @@ body {
     #CTA .item {
         margin: 70px 180px;
     }
-}
-
-@media only screen and (min-width: 200px) {
 }
